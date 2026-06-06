@@ -20,7 +20,7 @@ fn main() {
     if args.iter().any(|arg: &String|arg=="--help"){
         println!("rustshot:
     --create-config = this argument create config dir in your home directory, and config TOML file.
-    --shot = make screenshot.")
+    shot = make screenshot.")
     }
     if args.iter().any(|arg: &String|arg=="--create-config"){
        createconfigfile();
